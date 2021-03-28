@@ -1,4 +1,0 @@
-C:\Users\draku\source\repos\list\list\obj\Debug\netcoreapp3.1\list.csprojAssemblyReference.cache
-C:\Users\draku\source\repos\list\list\obj\Debug\netcoreapp3.1\list.AssemblyInfoInputs.cache
-C:\Users\draku\source\repos\list\list\obj\Debug\netcoreapp3.1\list.AssemblyInfo.cs
-C:\Users\draku\source\repos\list\list\obj\Debug\netcoreapp3.1\list.csproj.CoreCompileInputs.cache
