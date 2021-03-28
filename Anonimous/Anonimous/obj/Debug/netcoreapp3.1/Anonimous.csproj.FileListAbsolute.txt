@@ -1,0 +1,13 @@
+C:\Users\draku\source\repos\Anonimous\Anonimous\bin\Debug\netcoreapp3.1\Anonimous.exe
+C:\Users\draku\source\repos\Anonimous\Anonimous\bin\Debug\netcoreapp3.1\Anonimous.deps.json
+C:\Users\draku\source\repos\Anonimous\Anonimous\bin\Debug\netcoreapp3.1\Anonimous.runtimeconfig.json
+C:\Users\draku\source\repos\Anonimous\Anonimous\bin\Debug\netcoreapp3.1\Anonimous.runtimeconfig.dev.json
+C:\Users\draku\source\repos\Anonimous\Anonimous\bin\Debug\netcoreapp3.1\Anonimous.dll
+C:\Users\draku\source\repos\Anonimous\Anonimous\bin\Debug\netcoreapp3.1\Anonimous.pdb
+C:\Users\draku\source\repos\Anonimous\Anonimous\obj\Debug\netcoreapp3.1\Anonimous.csprojAssemblyReference.cache
+C:\Users\draku\source\repos\Anonimous\Anonimous\obj\Debug\netcoreapp3.1\Anonimous.AssemblyInfoInputs.cache
+C:\Users\draku\source\repos\Anonimous\Anonimous\obj\Debug\netcoreapp3.1\Anonimous.AssemblyInfo.cs
+C:\Users\draku\source\repos\Anonimous\Anonimous\obj\Debug\netcoreapp3.1\Anonimous.csproj.CoreCompileInputs.cache
+C:\Users\draku\source\repos\Anonimous\Anonimous\obj\Debug\netcoreapp3.1\Anonimous.dll
+C:\Users\draku\source\repos\Anonimous\Anonimous\obj\Debug\netcoreapp3.1\Anonimous.pdb
+C:\Users\draku\source\repos\Anonimous\Anonimous\obj\Debug\netcoreapp3.1\Anonimous.genruntimeconfig.cache
