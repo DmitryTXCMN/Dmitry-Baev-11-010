@@ -24,7 +24,6 @@ namespace AISD
             field[5, 4] = 1;
             field[3, 5] = 1;
             field[5, 3] = 1;
-            field[4, 5] = 1;
             field[6, 5] = 1;
             field[5, 6] = 1;
             field[5, 7] = 1;
@@ -44,13 +43,11 @@ namespace AISD
             field[1, 6] = 1;
             field[2, 6] = 1;
             field[3, 6] = 1;
-            field[4, 6] = 1;
             field[6, 4] = 1;
             field[6, 3] = 1;
             field[7, 3] = 1;
             field[7, 2] = 1;
             field[8, 2] = 1;
-            field[9, 2] = 1;
             return field;
         }
 
@@ -160,7 +157,7 @@ namespace AISD
             Stack<int[]> way = new Stack<int[]>();
             field[xPos, yPos] = 2;
             way.Push(new int[] { xPos, yPos });
-
+            Direction prevDirection = Direction.Left;
             while (xPos != 0 && xPos != 9 && yPos != 0 && yPos != 9)
             {
                 Direction currentDirection = Direction.Left;
@@ -175,6 +172,13 @@ namespace AISD
                     else currentDirection = Direction.Left;
                 if (nextStep != 1)
                     for (int i = 0; i < 4; i++)
+                    {
+                        if (CanGoBack(field, xPos, yPos, prevDirection))
+                        {
+                            currentDirection = prevDirection;
+                            nextStep = 2;
+                            break;
+                        }
                         if (CanGoBack(field, xPos, yPos, currentDirection))
                         {
                             nextStep = 2;
@@ -182,6 +186,7 @@ namespace AISD
                         }
                         else if (currentDirection != Direction.Down) currentDirection = (Direction)((int)currentDirection + 1);
                         else currentDirection = Direction.Left;
+                    }
                 if (nextStep == 0)
                 {
                     Console.WriteLine("путей нету!");
@@ -198,6 +203,26 @@ namespace AISD
                     Go(field, ref xPos, ref yPos, currentDirection);
                     way.Push(new int[] { xPos, yPos });
                 }
+
+                switch(currentDirection)
+                {
+                    case Direction.Left:
+                        prevDirection = Direction.Right;
+                        break;
+                    case Direction.Right:
+                        prevDirection = Direction.Left;
+                        break;
+                    case Direction.Up:
+                        prevDirection = Direction.Down;
+                        break;
+                    case Direction.Down:
+                        prevDirection = Direction.Up;
+                        break;
+                    default:
+                        break;
+                }
+
+                
                 ShowLab(field);
             }
             foreach (var step in way)
