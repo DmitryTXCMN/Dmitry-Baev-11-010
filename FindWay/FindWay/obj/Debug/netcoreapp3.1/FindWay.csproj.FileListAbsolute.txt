@@ -1,0 +1,13 @@
+C:\Users\draku\source\repos\FindWay\FindWay\bin\Debug\netcoreapp3.1\FindWay.exe
+C:\Users\draku\source\repos\FindWay\FindWay\bin\Debug\netcoreapp3.1\FindWay.deps.json
+C:\Users\draku\source\repos\FindWay\FindWay\bin\Debug\netcoreapp3.1\FindWay.runtimeconfig.json
+C:\Users\draku\source\repos\FindWay\FindWay\bin\Debug\netcoreapp3.1\FindWay.runtimeconfig.dev.json
+C:\Users\draku\source\repos\FindWay\FindWay\bin\Debug\netcoreapp3.1\FindWay.dll
+C:\Users\draku\source\repos\FindWay\FindWay\bin\Debug\netcoreapp3.1\FindWay.pdb
+C:\Users\draku\source\repos\FindWay\FindWay\obj\Debug\netcoreapp3.1\FindWay.csprojAssemblyReference.cache
+C:\Users\draku\source\repos\FindWay\FindWay\obj\Debug\netcoreapp3.1\FindWay.AssemblyInfoInputs.cache
+C:\Users\draku\source\repos\FindWay\FindWay\obj\Debug\netcoreapp3.1\FindWay.AssemblyInfo.cs
+C:\Users\draku\source\repos\FindWay\FindWay\obj\Debug\netcoreapp3.1\FindWay.csproj.CoreCompileInputs.cache
+C:\Users\draku\source\repos\FindWay\FindWay\obj\Debug\netcoreapp3.1\FindWay.dll
+C:\Users\draku\source\repos\FindWay\FindWay\obj\Debug\netcoreapp3.1\FindWay.pdb
+C:\Users\draku\source\repos\FindWay\FindWay\obj\Debug\netcoreapp3.1\FindWay.genruntimeconfig.cache
