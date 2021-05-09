@@ -2,26 +2,36 @@
 
 namespace Tetris
 {
-    class Program
+    class Program : GameProgress
     {
-        static void Main(string[] args)
+        public static void FullDesk()
         {
-            int i = 1;
             for (int s = 0; s < 72; s++)
             {
                 for (int si = 0; si < 269; si++)
                     Console.Write('0');
                 Console.Write('\n');
             }
-            GameBoard board = new GameBoard();
-            char z = 'a';
-            while (true)
-            {
-                var time = DateTime.Now.Second;
-                while (time - DateTime.Now.Second > -1) ;
-                if (z == 'z') z = 'a';
-                board.UpdateFrame(z++);
-            }
+        }
+        static void Main(string[] args)
+        {
+            FullDesk();
+            GameProgress game = new GameProgress();
+            game.Game();
+            
         }
     }
 }
+
+/*GameBoard board = new GameBoard();
+            char z = 'a';
+            
+            while (true)
+            {
+                
+                if (z == 'z') z = 'a';
+                FallShape currentShape = new FallShape();
+                board.PlaceShape(currentShape, 4, 4);
+                board.UpdateFrame(z++);
+                board.DellShape(currentShape, 4, 4);
+            }*/

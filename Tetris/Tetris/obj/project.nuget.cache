@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "8cH4STyJf9WJsETwKXhi3deeKkFYWiLsWkO4yjLt+ErmsPPLUhQl+0dq9PbMnw1GSFkLqXsBmBsa9MNTw844pw==",
+  "dgSpecHash": "fyf6nF3cHv8l49d9VdYBAGa7yRlCiKgIIydrN+9um+SakEb6prZ3PDKdZT5p0e7D7N0Wpn8LTAjmPnEJyF96PQ==",
   "success": true,
-  "projectFilePath": "D:\\Tetris\\Tetris\\Tetris.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\Tetris\\Tetris\\Tetris.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\draku\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\draku\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\draku\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
+    "C:\\Users\\draku\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

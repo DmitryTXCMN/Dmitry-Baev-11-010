@@ -28,7 +28,7 @@ namespace AISD
             field[5, 6] = 1;
             field[5, 7] = 1;
             field[5, 8] = 1;
-            field[5, 9] = 0;
+            field[5, 9] = 1;
             field[4, 3] = 1;
             field[3, 3] = 1;
             field[3, 4] = 1;

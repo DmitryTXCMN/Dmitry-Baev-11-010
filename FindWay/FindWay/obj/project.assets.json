@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\draku\\source\\repos\\FindWay\\FindWay\\FindWay.csproj",
+      "projectUniqueName": "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\FindWay\\FindWay\\FindWay.csproj",
       "projectName": "FindWay",
-      "projectPath": "C:\\Users\\draku\\source\\repos\\FindWay\\FindWay\\FindWay.csproj",
+      "projectPath": "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\FindWay\\FindWay\\FindWay.csproj",
       "packagesPath": "C:\\Users\\draku\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\draku\\source\\repos\\FindWay\\FindWay\\obj\\",
+      "outputPath": "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\FindWay\\FindWay\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\draku\\AppData\\Roaming\\NuGet\\NuGet.Config",

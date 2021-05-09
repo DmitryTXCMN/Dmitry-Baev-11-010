@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Tetris\\Tetris\\Tetris.csproj": {}
+    "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\Tetris\\Tetris\\Tetris.csproj": {}
   },
   "projects": {
-    "D:\\Tetris\\Tetris\\Tetris.csproj": {
+    "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\Tetris\\Tetris\\Tetris.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tetris\\Tetris\\Tetris.csproj",
+        "projectUniqueName": "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\Tetris\\Tetris\\Tetris.csproj",
         "projectName": "Tetris",
-        "projectPath": "D:\\Tetris\\Tetris\\Tetris.csproj",
+        "projectPath": "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\Tetris\\Tetris\\Tetris.csproj",
         "packagesPath": "C:\\Users\\draku\\.nuget\\packages\\",
-        "outputPath": "D:\\Tetris\\Tetris\\obj\\",
+        "outputPath": "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\Tetris\\Tetris\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\draku\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Windows.Extensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
