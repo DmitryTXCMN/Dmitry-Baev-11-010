@@ -13,7 +13,8 @@ namespace Tetris
             TShape = 2,
             OShape = 3,
             ZShape = 4,
-            SShape = 5
+            SShape = 5,
+            rShape = 6
         }
 
         public ConsoleColor Color { get; set; }
@@ -28,7 +29,7 @@ namespace Tetris
             x = 0;
             y = 4;
             Color = (ConsoleColor)rng.Next(9, 15);
-            ShapeType = (Shape)rng.Next(0, 6);
+            ShapeType = (Shape)rng.Next(0, 7);
             switch (ShapeType)
             {
                 case (Shape.IShape):
@@ -42,6 +43,13 @@ namespace Tetris
                     shapeblocks = new bool[3, 3];
                     shapeblocks[1, 1] = true;
                     shapeblocks[0, 0] = true;
+                    shapeblocks[1, 0] = true;
+                    shapeblocks[1, 2] = true;
+                    break;
+                case (Shape.rShape):
+                    shapeblocks = new bool[3, 3];
+                    shapeblocks[1, 1] = true;
+                    shapeblocks[0, 2] = true;
                     shapeblocks[1, 0] = true;
                     shapeblocks[1, 2] = true;
                     break;

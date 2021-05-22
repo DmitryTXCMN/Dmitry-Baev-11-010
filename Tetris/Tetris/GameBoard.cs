@@ -64,7 +64,7 @@ namespace Tetris
             int ypos = 3;
             for (int i = 0; i < 20; i++)
             {
-                Console.SetCursorPosition(3, ypos + 3 * i);
+                Console.SetCursorPosition(4, ypos + 3 * i);
                 for (int j = 0; j < 10; j++)
                 {
                     Console.ForegroundColor = showBoard.board[i, j].Color;
@@ -113,14 +113,18 @@ namespace Tetris
                 board[0, j] = new Block(ConsoleColor.Black);
         }
 
-        public void CheckFullLines()
+        public void CheckFullLines(ref int deleted)
         {
             for (int i=19;i>=0;i--)
             {
                 bool isStringFull = true;
                 for (int j = 0; j < 10; j++)
                     if (board[i, j].IsBlockEmpty()) isStringFull = false;
-                if (isStringFull) DellString(i++);
+                if (isStringFull)
+                {
+                    DellString(i++);
+                    deleted++;
+                }
             }
         }
     }
