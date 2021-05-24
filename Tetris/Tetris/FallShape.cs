@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Tetris
 {
-    class FallShape
+    public class FallShape
     {
         public enum Shape
         {
@@ -97,8 +97,7 @@ namespace Tetris
                     shapeblocks[i, j] = input.shapeblocks[i, j]; 
         }
         
-
-    public void Rotate()
+        public void Rotate()
         {
             int n = shapeblocks.GetLength(0);
             for (int i = 0; i < n / 2; i++)

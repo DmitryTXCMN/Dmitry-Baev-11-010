@@ -98,6 +98,11 @@ namespace Tetris
                         }
                         if (!collision) currentBoard.UpdateFrame('y', currentShape);
                     }
+                    try
+                    {
+                        falling.Abort();
+                    }
+                    catch { }
                 }
                 int deleted = 0;
                 currentBoard.CheckFullLines(ref deleted);

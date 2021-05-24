@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Tetris
 {
-    class Block
+    public class Block
     {
         public ConsoleColor Color { get; set; }
 
@@ -23,6 +23,5 @@ namespace Tetris
             if (Color == ConsoleColor.Black) return true;
             return false;
         }
-
     }
 }

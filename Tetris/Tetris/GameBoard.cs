@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Tetris
 {
-    class GameBoard
+    public class GameBoard
     {
         public Block[,] board;
 
