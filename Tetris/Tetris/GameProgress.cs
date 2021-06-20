@@ -215,7 +215,7 @@ namespace Tetris
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Игра окончена. Ваш счёт: "+score);
-            File.AppendAllText("results.txt", score.ToString() + " " + playerName);
+            File.AppendAllText("results.txt", score.ToString() + " " + playerName+'\n');
             if (score > highscore)
             {
                 File.WriteAllText("highscore.txt", score.ToString());
