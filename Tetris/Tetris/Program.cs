@@ -46,16 +46,3 @@ namespace Tetris
         }
     }
 }
-
-/*GameBoard board = new GameBoard();
-            char z = 'a';
-            
-            while (true)
-            {
-                
-                if (z == 'z') z = 'a';
-                FallShape currentShape = new FallShape();
-                board.PlaceShape(currentShape, 4, 4);
-                board.UpdateFrame(z++);
-                board.DellShape(currentShape, 4, 4);
-            }*/

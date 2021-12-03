@@ -1,13 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "fyf6nF3cHv8l49d9VdYBAGa7yRlCiKgIIydrN+9um+SakEb6prZ3PDKdZT5p0e7D7N0Wpn8LTAjmPnEJyF96PQ==",
+  "dgSpecHash": "vWfnVf8txek2wCLpymJlY6OPA50ZZDE2FqpIQJ/7WA5RgQgc4qTRgzGpd84PLGVLYjheaKV63Qk61UNzWQEmEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\Tetris\\Tetris\\Tetris.csproj",
+  "projectFilePath": "C:\\Users\\Toxicman\\Desktop\\GitHub\\Dmitry-Baev-11-010\\Tetris\\Tetris\\Tetris.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\draku\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
-    "C:\\Users\\draku\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
-    "C:\\Users\\draku\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
-    "C:\\Users\\draku\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+    "C:\\Users\\Toxicman\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Toxicman\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Toxicman\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
+    "C:\\Users\\Toxicman\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Toxicman\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512",
+    "C:\\Users\\Toxicman\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Toxicman\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Toxicman\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
   ],
   "logs": []
 }

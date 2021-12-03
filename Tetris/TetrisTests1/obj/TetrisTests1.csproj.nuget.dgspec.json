@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\Tetris\\TetrisTests1\\TetrisTests1.csproj": {}
+    "C:\\Users\\Toxicman\\Desktop\\GitHub\\Dmitry-Baev-11-010\\Tetris\\TetrisTests1\\TetrisTests1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\Tetris\\TetrisTests1\\TetrisTests1.csproj": {
+    "C:\\Users\\Toxicman\\Desktop\\GitHub\\Dmitry-Baev-11-010\\Tetris\\TetrisTests1\\TetrisTests1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\Tetris\\TetrisTests1\\TetrisTests1.csproj",
+        "projectUniqueName": "C:\\Users\\Toxicman\\Desktop\\GitHub\\Dmitry-Baev-11-010\\Tetris\\TetrisTests1\\TetrisTests1.csproj",
         "projectName": "TetrisTests1",
-        "projectPath": "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\Tetris\\TetrisTests1\\TetrisTests1.csproj",
-        "packagesPath": "C:\\Users\\draku\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\Tetris\\TetrisTests1\\obj\\",
+        "projectPath": "C:\\Users\\Toxicman\\Desktop\\GitHub\\Dmitry-Baev-11-010\\Tetris\\TetrisTests1\\TetrisTests1.csproj",
+        "packagesPath": "C:\\Users\\Toxicman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Toxicman\\Desktop\\GitHub\\Dmitry-Baev-11-010\\Tetris\\TetrisTests1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\draku\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Toxicman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\Tetris\\Tetris\\Tetris.csproj": {
-                "projectPath": "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\Tetris\\Tetris\\Tetris.csproj"
+              "C:\\Users\\Toxicman\\Desktop\\GitHub\\Dmitry-Baev-11-010\\Tetris\\Tetris\\Tetris.csproj": {
+                "projectPath": "C:\\Users\\Toxicman\\Desktop\\GitHub\\Dmitry-Baev-11-010\\Tetris\\Tetris\\Tetris.csproj"
               }
             }
           }
@@ -71,26 +71,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\Tetris\\Tetris\\Tetris.csproj": {
+    "C:\\Users\\Toxicman\\Desktop\\GitHub\\Dmitry-Baev-11-010\\Tetris\\Tetris\\Tetris.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\Tetris\\Tetris\\Tetris.csproj",
+        "projectUniqueName": "C:\\Users\\Toxicman\\Desktop\\GitHub\\Dmitry-Baev-11-010\\Tetris\\Tetris\\Tetris.csproj",
         "projectName": "Tetris",
-        "projectPath": "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\Tetris\\Tetris\\Tetris.csproj",
-        "packagesPath": "C:\\Users\\draku\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\draku\\OneDrive\\Документы\\GitHub\\Dmitry-Baev-11-010\\Tetris\\Tetris\\obj\\",
+        "projectPath": "C:\\Users\\Toxicman\\Desktop\\GitHub\\Dmitry-Baev-11-010\\Tetris\\Tetris\\Tetris.csproj",
+        "packagesPath": "C:\\Users\\Toxicman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Toxicman\\Desktop\\GitHub\\Dmitry-Baev-11-010\\Tetris\\Tetris\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\draku\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Toxicman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -131,12 +145,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.18, 3.1.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
         }
       }
     }

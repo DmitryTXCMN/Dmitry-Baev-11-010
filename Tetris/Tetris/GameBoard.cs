@@ -68,6 +68,10 @@ namespace Tetris
                 for (int j = 0; j < 10; j++)
                 {
                     Console.ForegroundColor = showBoard.board[i, j].Color;
+
+                    Random rng = new Random();
+                    ch = (char)rng.Next((int)'a',(int)'z');
+
                     SetBlockOnScreen(ch);
                 }
             }
